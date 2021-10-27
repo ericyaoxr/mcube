@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+package mcube.http;
+
+option go_package = "github.com/infraboard/mcube/pb/http;http";
+option java_package = "com.google.protobuf";
+option java_outer_classname = "HttpProtos";
+option csharp_namespace = "Google.Protobuf.Reflection";
+option objc_class_prefix = "GPB";
+option cc_enable_arenas = true;
+
+// descriptor.proto must be optimized for speed because reflection-based
+// algorithms don't work during bootstrapping.
+option optimize_for = SPEED;
+
+import "github.com/infraboard/mcube/cmd/protoc-gen-go-ext/extension/tag/tag.proto";
+import "google/protobuf/descriptor.proto";
+
+extend google.protobuf.MethodOptions {
+    Entry rest_api = 20210228;
+}
+
+// Entry 路由条目
+message Entry {
+    // 函数名称
+    string function_name = 2[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"function_name" json:"function_name"'}
+        ];
+    // HTTP path 用于自动生成http api
+    string path = 3[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"path" json:"path"'}
+        ];
+    // HTTP method 用于自动生成http api
+    string method = 4[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"method" json:"method"'}
+        ];
+    // 资源名称
+    string resource = 5[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"resource" json:"resource"'}
+        ];
+    // 是否校验用户身份 (acccess_token)
+    bool auth_enable = 6[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"auth_enable" json:"auth_enable"'}
+        ];
+    // 是否校验用户权限
+    bool permission_enable = 7[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"permission_enable" json:"permission_enable"'}
+        ];
+    // 允许的通过的身份标识符, 比如角色, 用户类型之类
+    repeated string allow = 12[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"allow" json:"allow"'}
+        ];
+    // 是否开启操作审计, 开启后这次操作将被记录
+    bool audit_log = 9[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"audit_log" json:"audit_log"'}
+        ];
+    // 名称空间不能为空
+    bool required_namespace = 10[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"required_namespace" json:"required_namespace"'}
+        ];
+    // 标签
+    map<string, string> labels = 8[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"labels" json:"labels"'}
+        ];
+    // 扩展属性
+    map<string, string> extension = 11[
+        (google.protobuf.field_tag) = {struct_tag: 'bson:"extension" json:"extension"'}
+        ];        
+}
