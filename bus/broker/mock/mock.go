@@ -3,8 +3,8 @@ package broker
 import (
 	"fmt"
 
-	"github.com/infraboard/mcube/bus"
-	"github.com/infraboard/mcube/bus/event"
+	"github.com/ericyaoxr/mcube/bus"
+	"github.com/ericyaoxr/mcube/bus/event"
 )
 
 // NewBroker todo

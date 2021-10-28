@@ -6,7 +6,7 @@ const ServiceTemplate = `package pkg
 import (
 	"fmt"
 
-	"github.com/infraboard/mcube/pb/http"
+	"github.com/ericyaoxr/mcube/pb/http"
 	"google.golang.org/grpc"
 
 	"{{.PKG}}/pkg/example"

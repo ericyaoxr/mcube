@@ -14,16 +14,16 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/pkg/errors"
 
-	"github.com/infraboard/mcube/cmd/mcube/templates/client"
-	"github.com/infraboard/mcube/cmd/mcube/templates/cmd"
-	"github.com/infraboard/mcube/cmd/mcube/templates/conf"
-	"github.com/infraboard/mcube/cmd/mcube/templates/etc"
-	"github.com/infraboard/mcube/cmd/mcube/templates/pkg"
-	"github.com/infraboard/mcube/cmd/mcube/templates/protocol"
-	"github.com/infraboard/mcube/cmd/mcube/templates/root"
-	"github.com/infraboard/mcube/cmd/mcube/templates/script"
-	"github.com/infraboard/mcube/cmd/mcube/templates/version"
-	"github.com/infraboard/mcube/tools/cli"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/client"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/cmd"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/conf"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/etc"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/pkg"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/protocol"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/root"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/script"
+	"github.com/ericyaoxr/mcube/cmd/mcube/templates/version"
+	"github.com/ericyaoxr/mcube/tools/cli"
 )
 
 // LoadConfigFromCLI 配置
@@ -38,7 +38,7 @@ func LoadConfigFromCLI() (*Project, error) {
 	err := survey.AskOne(
 		&survey.Input{
 			Message: "请输入项目包名称:",
-			Default: "github.com/infraboard/demo",
+			Default: "github.com/ericyaoxr/demo",
 		},
 		&p.PKG,
 		survey.WithValidator(survey.Required),

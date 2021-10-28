@@ -4,7 +4,7 @@ package client
 const ClientConfigTemplate = `package client
 
 import (
-	kc "github.com/infraboard/keyauth/client"
+	kc "github.com/ericyaoxr/keyauth/client"
 )
 
 // NewDefaultConfig todo

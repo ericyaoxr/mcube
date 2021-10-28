@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/infraboard/mcube/http/middleware/realip"
-	"github.com/infraboard/mcube/http/router/httprouter"
+	"github.com/ericyaoxr/mcube/http/middleware/realip"
+	"github.com/ericyaoxr/mcube/http/router/httprouter"
 )
 
 func TestXRealIP(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/infraboard/mcube/http/middleware/accesslog"
-	"github.com/infraboard/mcube/http/router"
-	"github.com/infraboard/mcube/http/router/httprouter"
-	"github.com/infraboard/mcube/logger/mock"
+	"github.com/ericyaoxr/mcube/http/middleware/accesslog"
+	"github.com/ericyaoxr/mcube/http/router"
+	"github.com/ericyaoxr/mcube/http/router/httprouter"
+	"github.com/ericyaoxr/mcube/logger/mock"
 	"github.com/stretchr/testify/require"
 )
 

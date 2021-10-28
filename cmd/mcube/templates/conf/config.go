@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	kc "github.com/infraboard/keyauth/client"
+	kc "github.com/ericyaoxr/keyauth/client"
 
-	"github.com/infraboard/mcube/cache/memory"
-	"github.com/infraboard/mcube/cache/redis"
+	"github.com/ericyaoxr/mcube/cache/memory"
+	"github.com/ericyaoxr/mcube/cache/redis"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

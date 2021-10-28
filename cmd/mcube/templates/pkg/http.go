@@ -6,7 +6,7 @@ const HTTPTemplate = `package pkg
 import (
 	"strings"
 
-	"github.com/infraboard/mcube/http/router"
+	"github.com/ericyaoxr/mcube/http/router"
 )
 
 var (

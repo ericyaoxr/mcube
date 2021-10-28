@@ -12,7 +12,7 @@ import (
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/infraboard/mcube/trace/tredis"
+	"github.com/ericyaoxr/mcube/trace/tredis"
 )
 
 var redisAddr string

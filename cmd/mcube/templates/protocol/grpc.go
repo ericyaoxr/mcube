@@ -10,9 +10,9 @@ import (
 	"net"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/infraboard/keyauth/pkg/endpoint"
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/keyauth/pkg/endpoint"
+	"github.com/ericyaoxr/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger/zap"
 	"google.golang.org/grpc"
 
 	"{{.PKG}}/conf"

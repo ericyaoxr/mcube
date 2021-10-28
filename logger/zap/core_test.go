@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger/zap"
 )
 
 func TestLogger(t *testing.T) {

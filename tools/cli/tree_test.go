@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/infraboard/mcube/tools/cli"
+	"github.com/ericyaoxr/mcube/tools/cli"
 )
 
 const testFullResult = `├───dir1

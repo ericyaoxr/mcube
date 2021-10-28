@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/infraboard/mcube/http/context"
-	"github.com/infraboard/mcube/http/response"
-	"github.com/infraboard/mcube/http/router"
-	"github.com/infraboard/mcube/logger"
-	httppb "github.com/infraboard/mcube/pb/http"
+	"github.com/ericyaoxr/mcube/http/context"
+	"github.com/ericyaoxr/mcube/http/response"
+	"github.com/ericyaoxr/mcube/http/router"
+	"github.com/ericyaoxr/mcube/logger"
+	httppb "github.com/ericyaoxr/mcube/pb/http"
 	"github.com/julienschmidt/httprouter"
 )
 

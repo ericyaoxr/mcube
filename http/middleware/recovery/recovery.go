@@ -7,10 +7,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/infraboard/mcube/exception"
-	"github.com/infraboard/mcube/http/response"
-	"github.com/infraboard/mcube/http/router"
-	"github.com/infraboard/mcube/logger"
+	"github.com/ericyaoxr/mcube/exception"
+	"github.com/ericyaoxr/mcube/http/response"
+	"github.com/ericyaoxr/mcube/http/router"
+	"github.com/ericyaoxr/mcube/logger"
 )
 
 const recoveryExplanation = "Something went wrong"

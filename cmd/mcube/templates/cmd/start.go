@@ -12,12 +12,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/infraboard/keyauth/client"
-	"github.com/infraboard/mcube/cache"
-	"github.com/infraboard/mcube/cache/memory"
-	"github.com/infraboard/mcube/cache/redis"
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/keyauth/client"
+	"github.com/ericyaoxr/mcube/cache"
+	"github.com/ericyaoxr/mcube/cache/memory"
+	"github.com/ericyaoxr/mcube/cache/redis"
+	"github.com/ericyaoxr/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger/zap"
 	"github.com/spf13/cobra"
 
 	"{{.PKG}}/protocol"

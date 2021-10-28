@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/infraboard/mcube/cmd/protoc-gen-go-ext/ast"
+	"github.com/ericyaoxr/mcube/cmd/protoc-gen-go-ext/ast"
 	gengo "google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo"
 	"google.golang.org/protobuf/compiler/protogen"
 )

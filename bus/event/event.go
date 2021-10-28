@@ -7,7 +7,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/infraboard/mcube/types/ftime"
+	"github.com/ericyaoxr/mcube/types/ftime"
 )
 
 // 事件主题定义(由事件类型确定)

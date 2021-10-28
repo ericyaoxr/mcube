@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/infraboard/mcube/file"
+	"github.com/ericyaoxr/mcube/file"
 )
 
 func TestStat(t *testing.T) {

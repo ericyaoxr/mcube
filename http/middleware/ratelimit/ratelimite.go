@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/infraboard/mcube/flowcontrol"
-	"github.com/infraboard/mcube/flowcontrol/tokenbucket"
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/mcube/flowcontrol"
+	"github.com/ericyaoxr/mcube/flowcontrol/tokenbucket"
+	"github.com/ericyaoxr/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger/zap"
 )
 
 // NewGlobalModeLimiter todo

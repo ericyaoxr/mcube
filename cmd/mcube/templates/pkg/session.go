@@ -4,7 +4,7 @@ package pkg
 const SessionTemplate = `package pkg
 
 import (
-	"github.com/infraboard/keyauth/pkg/token"
+	"github.com/ericyaoxr/keyauth/pkg/token"
 )
 
 var (

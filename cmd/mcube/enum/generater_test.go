@@ -3,7 +3,7 @@ package enum_test
 import (
 	"testing"
 
-	"github.com/infraboard/mcube/cmd/mcube/enum"
+	"github.com/ericyaoxr/mcube/cmd/mcube/enum"
 	"github.com/stretchr/testify/assert"
 )
 

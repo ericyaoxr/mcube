@@ -6,8 +6,8 @@ const ExampleHTTPObjTemplate = `package http
 import (
 	"errors"
 
-	"github.com/infraboard/mcube/http/router"
-	"github.com/infraboard/mcube/http/label"
+	"github.com/ericyaoxr/mcube/http/router"
+	"github.com/ericyaoxr/mcube/http/label"
 
 	"{{.PKG}}/client"
 	"{{.PKG}}/pkg"
@@ -52,9 +52,9 @@ const ExampleHTTPMethodTemplate = `package http
 import (
 	"net/http"
 
-	"github.com/infraboard/mcube/grpc/gcontext"
-	"github.com/infraboard/mcube/http/response"
-	"github.com/infraboard/mcube/http/request"
+	"github.com/ericyaoxr/mcube/grpc/gcontext"
+	"github.com/ericyaoxr/mcube/http/response"
+	"github.com/ericyaoxr/mcube/http/request"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
@@ -115,7 +115,7 @@ const ExamplePBRequestTemplate = `syntax = "proto3";
 package {{.Name}}.example;
 option go_package = "{{.PKG}}/pkg/example";
 
-import "github.com/infraboard/mcube/pb/page/page.proto";
+import "github.com/ericyaoxr/mcube/pb/page/page.proto";
 
 // CreateBookRequest 创建Book请求
 message CreateBookRequest {
@@ -136,7 +136,7 @@ const ExamplePBResponseTemplate = `syntax = "proto3";
 package {{.Name}}.example;
 option go_package = "{{.PKG}}/pkg/example";
 
-import "github.com/infraboard/mcube/cmd/protoc-gen-go-ext/extension/tag/tag.proto";
+import "github.com/ericyaoxr/mcube/cmd/protoc-gen-go-ext/extension/tag/tag.proto";
 
 // Book todo
 message Book {
@@ -169,7 +169,7 @@ option go_package = "{{.PKG}}/pkg/example";
 
 import "pkg/example/pb/request.proto";
 import "pkg/example/pb/reponse.proto";
-import "github.com/infraboard/mcube/pb/http/entry.proto";
+import "github.com/ericyaoxr/mcube/pb/http/entry.proto";
 
 service Service {
 	rpc CreateBook(CreateBookRequest) returns(Book) {
@@ -190,9 +190,9 @@ const ExampleIMPLOBJTemplate = `package impl
 
 import (
 
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
-	"github.com/infraboard/mcube/pb/http"
+	"github.com/ericyaoxr/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger/zap"
+	"github.com/ericyaoxr/mcube/pb/http"
 
 	"{{.PKG}}/pkg"
 	"{{.PKG}}/pkg/example"
@@ -231,7 +231,7 @@ const ExampleIMPLMethodTemplate = `package impl
 import (
 	"context"
 
-	"github.com/infraboard/mcube/grpc/gcontext"
+	"github.com/ericyaoxr/mcube/grpc/gcontext"
 
 	"{{.PKG}}/pkg"
 	"{{.PKG}}/pkg/example"
@@ -255,7 +255,7 @@ func (s *service) QueryBook(ctx context.Context, req *example.QueryBookRequest) 
 // ExampleRequestExtTemplate 模板
 const ExampleRequestExtTemplate = `package example
 
-import "github.com/infraboard/mcube/http/request"
+import "github.com/ericyaoxr/mcube/http/request"
 
 // NewQueryBookRequest 查询book列表
 func NewQueryBookRequest(page *request.PageRequest) *QueryBookRequest {

@@ -3,7 +3,7 @@ package defaultvalue_test
 import (
 	"testing"
 
-	"github.com/infraboard/mcube/tools/defaultvalue"
+	"github.com/ericyaoxr/mcube/tools/defaultvalue"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/infraboard/mcube/exception"
+	"github.com/ericyaoxr/mcube/exception"
 )
 
 // Failed use to response error messge

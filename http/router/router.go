@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/infraboard/mcube/logger"
-	httppb "github.com/infraboard/mcube/pb/http"
+	"github.com/ericyaoxr/mcube/logger"
+	httppb "github.com/ericyaoxr/mcube/pb/http"
 )
 
 // Router 路由

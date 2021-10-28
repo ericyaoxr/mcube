@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/infraboard/mcube/bus/broker/kafka"
+	"github.com/ericyaoxr/mcube/bus/broker/kafka"
 	"github.com/stretchr/testify/assert"
 )
 

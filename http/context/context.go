@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	httppb "github.com/infraboard/mcube/pb/http"
+	httppb "github.com/ericyaoxr/mcube/pb/http"
 	"github.com/julienschmidt/httprouter"
 )
 

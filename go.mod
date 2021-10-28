@@ -1,4 +1,4 @@
-module github.com/infraboard/mcube
+module github.com/ericyaoxr/mcube
 
 go 1.16
 

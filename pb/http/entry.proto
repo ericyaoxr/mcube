@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package mcube.http;
 
-option go_package = "github.com/infraboard/mcube/pb/http;http";
+option go_package = "github.com/ericyaoxr/mcube/pb/http;http";
 option java_package = "com.google.protobuf";
 option java_outer_classname = "HttpProtos";
 option csharp_namespace = "Google.Protobuf.Reflection";
@@ -13,7 +13,7 @@ option cc_enable_arenas = true;
 // algorithms don't work during bootstrapping.
 option optimize_for = SPEED;
 
-import "github.com/infraboard/mcube/cmd/protoc-gen-go-ext/extension/tag/tag.proto";
+import "github.com/ericyaoxr/mcube/cmd/protoc-gen-go-ext/extension/tag/tag.proto";
 import "google/protobuf/descriptor.proto";
 
 extend google.protobuf.MethodOptions {

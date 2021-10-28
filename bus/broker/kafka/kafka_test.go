@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/infraboard/mcube/bus"
-	"github.com/infraboard/mcube/bus/broker/kafka"
-	"github.com/infraboard/mcube/bus/event"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/mcube/bus"
+	"github.com/ericyaoxr/mcube/bus/broker/kafka"
+	"github.com/ericyaoxr/mcube/bus/event"
+	"github.com/ericyaoxr/mcube/logger/zap"
 )
 
 var (

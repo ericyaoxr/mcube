@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/infraboard/mcube/cache"
-	"github.com/infraboard/mcube/cache/memory"
+	"github.com/ericyaoxr/mcube/cache"
+	"github.com/ericyaoxr/mcube/cache/memory"
 )
 
 type adapterSuit struct {

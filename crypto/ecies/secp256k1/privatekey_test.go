@@ -4,7 +4,7 @@ import (
 	"crypto/subtle"
 	"testing"
 
-	ecies "github.com/infraboard/mcube/crypto/ecies/secp256k1"
+	ecies "github.com/ericyaoxr/mcube/crypto/ecies/secp256k1"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/infraboard/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger"
 	"github.com/pkg/errors"
 )
 

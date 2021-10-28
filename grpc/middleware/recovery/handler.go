@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/infraboard/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger"
 	"go.uber.org/zap"
 )
 

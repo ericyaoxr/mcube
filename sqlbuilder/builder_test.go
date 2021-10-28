@@ -3,7 +3,7 @@ package sqlbuilder_test
 import (
 	"testing"
 
-	"github.com/infraboard/mcube/sqlbuilder"
+	"github.com/ericyaoxr/mcube/sqlbuilder"
 	"github.com/stretchr/testify/assert"
 )
 

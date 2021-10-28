@@ -14,7 +14,7 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/infraboard/mcube/cmd/protoc-gen-go-ext/extension/tag"
+	pb "github.com/ericyaoxr/mcube/cmd/protoc-gen-go-ext/extension/tag"
 )
 
 type FieldInfo struct {

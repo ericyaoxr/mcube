@@ -4,9 +4,9 @@ package client
 const ClientProxyTemplate = `package client
 
 import (
-	kc "github.com/infraboard/keyauth/client"
-	"github.com/infraboard/mcube/logger"
-	"github.com/infraboard/mcube/logger/zap"
+	kc "github.com/ericyaoxr/keyauth/client"
+	"github.com/ericyaoxr/mcube/logger"
+	"github.com/ericyaoxr/mcube/logger/zap"
 	"google.golang.org/grpc"
 
 	"{{.PKG}}/pkg/example"

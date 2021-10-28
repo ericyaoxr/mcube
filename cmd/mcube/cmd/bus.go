@@ -8,11 +8,11 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/spf13/cobra"
 
-	"github.com/infraboard/mcube/bus"
-	"github.com/infraboard/mcube/bus/broker/kafka"
-	"github.com/infraboard/mcube/bus/broker/nats"
-	"github.com/infraboard/mcube/bus/event"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/mcube/bus"
+	"github.com/ericyaoxr/mcube/bus/broker/kafka"
+	"github.com/ericyaoxr/mcube/bus/broker/nats"
+	"github.com/ericyaoxr/mcube/bus/event"
+	"github.com/ericyaoxr/mcube/logger/zap"
 )
 
 var (

@@ -3,7 +3,7 @@ package label_test
 import (
 	"testing"
 
-	"github.com/infraboard/mcube/http/label"
+	"github.com/ericyaoxr/mcube/http/label"
 	"github.com/stretchr/testify/assert"
 )
 

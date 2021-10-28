@@ -8,8 +8,8 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/rs/xid"
 
-	"github.com/infraboard/mcube/http/response"
-	"github.com/infraboard/mcube/logger"
+	"github.com/ericyaoxr/mcube/http/response"
+	"github.com/ericyaoxr/mcube/logger"
 )
 
 const (

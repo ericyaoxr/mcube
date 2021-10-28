@@ -7,7 +7,7 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/infraboard/mcube/bus/event"
+	"github.com/ericyaoxr/mcube/bus/event"
 )
 
 func newProducerMessage(event *event.Event) (*sarama.ProducerMessage, error) {

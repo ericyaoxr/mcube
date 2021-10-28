@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/infraboard/mcube/pb/page"
+	"github.com/ericyaoxr/mcube/pb/page"
 )
 
 const (

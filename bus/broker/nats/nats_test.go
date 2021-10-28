@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/infraboard/mcube/bus/broker/nats"
-	"github.com/infraboard/mcube/bus/event"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/mcube/bus/broker/nats"
+	"github.com/ericyaoxr/mcube/bus/event"
+	"github.com/ericyaoxr/mcube/logger/zap"
 )
 
 func TestPubSub(t *testing.T) {

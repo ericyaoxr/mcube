@@ -9,9 +9,9 @@ import (
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/infraboard/mcube/http/middleware/trace"
-	"github.com/infraboard/mcube/http/router/httprouter"
-	"github.com/infraboard/mcube/logger/zap"
+	"github.com/ericyaoxr/mcube/http/middleware/trace"
+	"github.com/ericyaoxr/mcube/http/router/httprouter"
+	"github.com/ericyaoxr/mcube/logger/zap"
 )
 
 var (
