@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package page;
+package ericyaoxr.mcube.page;
 option go_package = "github.com/ericyaoxr/mcube/pb/page";
 
 message PageRequest {
